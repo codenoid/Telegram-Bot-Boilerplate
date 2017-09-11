@@ -1,6 +1,6 @@
 # memebot
 
-Meme bot is Super Blazingly Dard Fast as Light, written in Crystal :p (again)
+Meme bot is Super Blazingly Darn Fast as Light, written in Crystal :p (again)
 
 ## Installation
 
