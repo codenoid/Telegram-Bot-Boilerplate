@@ -5,10 +5,6 @@ authors:
   - Rubi Jihantoro  <jihantoro8@gmail.com>
 
 dependencies:
-  modest:
-    github: kostya/modest
-  myhtml:
-    github: kostya/myhtml
   db:
     github: crystal-lang/crystal-db
   sqlite3:
@@ -16,7 +12,7 @@ dependencies:
 
 targets:
   memebot:
-    main: src/memebot.cr
+    main: src/bot.cr
 
 crystal: 0.23.1
 

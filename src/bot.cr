@@ -17,11 +17,8 @@ loop do
       update_id = v["update_id"]
       update_id == len ? forgot(update_id.to_s.to_i+1) : ""
       msg = v["message"]
-      sendMessage(msg["chat"]["id"], "Halo selam kenal, aku akan mengirimkan meme meme yang akan menghibur kamu setiap jam 12 ~, 16 ~, 6 ~. ^^") if msg == "/start" 
-      t = Time.now.hour
-      if t >= 12 && t <= 13 || t >= 16 && t <= 17 || t >= 6 && t <= 7
-        sendMeme()
-      end
+      # Try puts msg, to check response value
+      sendMessage(msg["chat"]["id"], "Hello World. ^^") if msg == "/start" 
     end
   end
 end
